@@ -1,0 +1,42 @@
+:root {
+  --bg-100: #820ad1;
+  --bg-200: #7f26ba;
+  --bg-300: #a232eb;
+  --bg-400: #9b30c2;
+  --bg-500: #ac1fde;
+  --bg-900: #393939;
+}
+
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Sora;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #9b30c2 0.01%,
+    #9b30c2 0.02%,
+    #820ad1 46.67%,
+    #820ad1 72.76%,
+    #7f26ba 100%
+  );
+}
+
+@font-face {
+  font-family: Sora;
+  src: url("~@/assets/fonts/Sora-Regular.ttf");
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Sora;
+  src: url("~@/assets/fonts/Sora-Bold.ttf");
+  font-weight: 700;
+  font-display: block;
+}
