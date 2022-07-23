@@ -16,7 +16,7 @@
 
 body {
   font-family: Sora;
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(
     180deg,
     #9b30c2 0.01%,
@@ -25,6 +25,8 @@ body {
     #820ad1 72.76%,
     #7f26ba 100%
   );
+
+  overflow-x: hidden;
 }
 
 a {
