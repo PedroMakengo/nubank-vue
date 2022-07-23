@@ -1,25 +1,25 @@
 <template>
   <div class="background">
     <div class="content">
-      <CartCredit class="cart-credit" />
+      <CardCredit />
       <img src="@/assets/images/card-user.png" class="user-card" alt="" />
     </div>
-    <img src="@/assets/images/shadow.svg" alt="" />
+    <img src="@/assets/images/shadow.svg" class="shadow" alt="" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { CartCredit } from "@/components/molecules";
+import { CardCredit } from "@/components/molecules";
 
 export default defineComponent({
-  components: { CartCredit },
+  components: { CardCredit },
 });
 </script>
 
 <style lang="scss" scoped>
 .background {
-  height: 77vh;
+  height: auto;
   background: white;
   background-image: url("@/assets/images/cards.svg");
   background-size: 40%;
@@ -41,6 +41,11 @@ export default defineComponent({
     top: 10rem;
     left: 8rem;
     border: 0;
+  }
+
+  .shadow {
+    width: 100%;
+    display: grid;
   }
 }
 </style>
