@@ -15,6 +15,10 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .header {
-  background: red;
+  height: 12vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: end;
 }
 </style>

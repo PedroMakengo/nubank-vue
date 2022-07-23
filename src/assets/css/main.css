@@ -27,6 +27,10 @@ body {
   );
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: Sora;
   src: url("~@/assets/fonts/Sora-Regular.ttf");
