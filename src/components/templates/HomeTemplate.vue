@@ -4,16 +4,19 @@
       <Header />
       <Background class="background" />
     </Container>
+    <ContainerMax>
+      <CreditPersonal />
+    </ContainerMax>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { Container } from "@/components/bosons";
-import { Header, Background } from "@/components/organisms";
+import { Container, ContainerMax } from "@/components/bosons";
+import { Header, Background, CreditPersonal } from "@/components/organisms";
 
 export default defineComponent({
-  components: { Container, Header, Background },
+  components: { Container, ContainerMax, Header, Background, CreditPersonal },
 });
 </script>
 

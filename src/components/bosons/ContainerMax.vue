@@ -13,6 +13,6 @@ export default defineComponent({});
 <style lang="scss" scoped>
 .container-max {
   margin: 0 auto;
-  width: 70%;
+  width: 73%;
 }
 </style>

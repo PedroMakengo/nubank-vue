@@ -4,7 +4,7 @@
       <CardCredit />
       <img src="@/assets/images/card-user.png" class="user-card" alt="" />
     </div>
-    <img src="@/assets/images/shadow.svg" class="shadow" alt="" />
+    <div class="shadow"></div>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .background {
-  height: auto;
+  /* height: auto; */
   background: white;
   background-image: url("@/assets/images/cards.svg");
   background-size: 40%;
@@ -44,7 +44,14 @@ export default defineComponent({
   }
 
   .shadow {
+    background: url("@/assets/images/shadow.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: -1rem;
     width: 100%;
+    height: 8vh;
+
     display: grid;
   }
 }
