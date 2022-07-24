@@ -17,9 +17,10 @@ export default defineComponent({
 <style lang="scss" scoped>
 .nubank-cont {
   background: #fff;
-  height: calc(max(min(100vh)) + 8rem);
+  height: calc(min(max(100vh)) + 15rem);
 
   border-radius: 0 0 0.5rem 0.5rem;
+
   img {
     width: 100%;
     transform: translateY(-32%);

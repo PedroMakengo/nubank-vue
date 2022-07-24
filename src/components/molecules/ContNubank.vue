@@ -32,21 +32,22 @@ export default defineComponent({});
 
   .nubank-image {
     position: relative;
-    transform: translateY(-20%);
+    transform: translateY(-18%);
     right: 40%;
+    z-index: 1;
 
     img {
-      width: 100%;
+      width: 110%;
     }
   }
 
   .cont-describe {
     padding-top: 4rem;
     font-family: Sora;
-    transform: translateX(-40%);
+    transform: translateX(-30%);
     height: 10vh;
 
-    padding: 7rem 0 0 0;
+    padding: 10rem 0 0 0;
 
     h2 {
       font-size: 2rem;
@@ -54,7 +55,7 @@ export default defineComponent({});
     }
 
     p {
-      width: 60%;
+      width: 50%;
       font-size: 1rem;
       font-weight: 100;
     }
