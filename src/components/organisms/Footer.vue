@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <Container>
+    <Container class="container">
       <h1>Footer</h1>
     </Container>
   </footer>
@@ -20,5 +20,9 @@ export default defineComponent({
 .footer {
   background: #30004f;
   height: 50vh;
+
+  .container {
+    padding: 4rem;
+  }
 }
 </style>
