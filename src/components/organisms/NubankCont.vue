@@ -18,6 +18,7 @@ export default defineComponent({
 .nubank-cont {
   background: #fff;
   height: calc(min(max(100vh)) + 15rem);
+  margin-bottom: 4rem;
 
   border-radius: 0 0 0.5rem 0.5rem;
 

@@ -10,6 +10,7 @@
     <Container>
       <NubankCont />
     </Container>
+    <Footer />
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import {
   Background,
   CreditPersonal,
   NubankCont,
+  Footer,
 } from "@/components/organisms";
 
 export default defineComponent({
@@ -31,6 +33,7 @@ export default defineComponent({
     Background,
     CreditPersonal,
     NubankCont,
+    Footer,
   },
 });
 </script>
