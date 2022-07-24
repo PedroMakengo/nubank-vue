@@ -13,12 +13,18 @@ export default defineComponent({});
 
 <style lang="scss" scoped>
 .describe-card {
+  color: #fff;
   h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    width: 90%;
+    margin-bottom: 1rem;
   }
 
   p {
-    width: 70%;
+    width: 100%;
+    padding-inline: 1rem;
+
+    opacity: 0.6;
   }
 }
 </style>

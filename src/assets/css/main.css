@@ -17,14 +17,14 @@
 body {
   font-family: Sora;
   /* height: 100vh; */
-  background: linear-gradient(
-    180deg,
-    #9b30c2 0.01%,
-    #9b30c2 0.02%,
-    #820ad1 46.67%,
-    #820ad1 72.76%,
-    #7f26ba 100%
-  );
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    from(#7f26ba),
+    to(#9b30c2)
+  ) !important;
+  background: linear-gradient(top right, #7f26ba, #9b30c2) !important;
 
   overflow-x: hidden;
 }

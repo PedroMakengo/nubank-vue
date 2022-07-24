@@ -1,6 +1,16 @@
 <template>
   <div class="credit-personal">
-    <DescribeCard />
+    <DescribeCard class="describe-card" />
+    <img
+      src="@/assets/images/user-display-card.svg"
+      class="card-user-display"
+      alt="Moça mostrando o cartão dela do Nubank"
+    />
+    <img
+      src="@/assets/images/card.svg"
+      class="card"
+      alt="Cartão do bano Nubank com apresentação do saldo"
+    />
   </div>
 </template>
 
@@ -24,9 +34,27 @@ export default defineComponent({
     #820ad1 72.76%,
     #7f26ba 100%
   );
-  padding-block: 2rem;
   border-radius: 0.5rem;
 
-  padding: 3rem;
+  padding: 4rem;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+
+  .describe-card {
+    width: 270px;
+  }
+
+  .card-user-display {
+    width: 318px;
+    position: relative;
+    transform: translateY(22%);
+  }
+
+  .card {
+    width: 307px;
+    transform: translateX(-10%);
+  }
 }
 </style>
