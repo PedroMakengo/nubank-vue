@@ -44,7 +44,7 @@ export default defineComponent({
   }
 
   .shadow {
-    background: url("@/assets/images/shadow.svg");
+    background: url("@/assets/images/shadow-1.svg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;

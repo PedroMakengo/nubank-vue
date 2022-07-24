@@ -8,7 +8,7 @@
       <CreditPersonal />
     </ContainerMax>
     <Container>
-      <h1>Olá Mundo</h1>
+      <NubankCont />
     </Container>
   </div>
 </template>
@@ -16,10 +16,22 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { Container, ContainerMax } from "@/components/bosons";
-import { Header, Background, CreditPersonal } from "@/components/organisms";
+import {
+  Header,
+  Background,
+  CreditPersonal,
+  NubankCont,
+} from "@/components/organisms";
 
 export default defineComponent({
-  components: { Container, ContainerMax, Header, Background, CreditPersonal },
+  components: {
+    Container,
+    ContainerMax,
+    Header,
+    Background,
+    CreditPersonal,
+    NubankCont,
+  },
 });
 </script>
 

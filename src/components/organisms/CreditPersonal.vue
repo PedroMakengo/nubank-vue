@@ -49,7 +49,7 @@ export default defineComponent({
   .card-user-display {
     width: 318px;
     position: relative;
-    transform: translateY(22%);
+    transform: translateY(22.6%);
   }
 
   .card {
